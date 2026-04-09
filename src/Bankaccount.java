@@ -1,4 +1,8 @@
 public class Bankaccount {
-    System.out.println("Dio porco");
-    
+
+    private float accountNumber;
+
+    public Bankaccount(float numero){
+        accountNumber = numero;
+    }
 }
